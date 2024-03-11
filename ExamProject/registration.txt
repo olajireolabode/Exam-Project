@@ -1,0 +1,3 @@
+vanier, Ronald, Raphael, 12345676, ronald@vanier.ca, QWertyuiop2
+
+vanier, Olajire, Olabode, 12345676, jireisaman@gmail.com, QB34isthebest

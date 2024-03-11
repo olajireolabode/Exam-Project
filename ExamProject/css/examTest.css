@@ -1,0 +1,95 @@
+#javaDiv {	
+	background-color: #98b4d4;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: Garamond, serif;
+    font-size: 1.1em;
+}
+
+#phpDiv {	
+	background-color: #787cb5;
+    margin-top: 30px;
+    margin-left: 50px;
+	font-family: Garamond, serif;
+    font-size: 1.1em;    
+}
+
+#javaImg{
+    height: 80px;
+    width: 130px;
+}
+
+#phpImg{
+    height: 80px;
+    width: 130px;
+}
+
+
+button {
+    margin-right: 20px;
+    font-size: x-large;
+    width: 100px;
+}
+
+#java-pagination-container{
+    margin-left: 550px;
+}
+
+button#java-submit-btn {
+    margin-left: 675px;
+}
+
+#java-pagination-container{
+    margin-left: 550px;
+}
+
+#php-pagination-container{
+    margin-left: 550px;
+}
+
+button#php-submit-btn {
+    margin-left: 675px;
+}
+
+#php-pagination-container{
+    margin-left: 550px;
+}
+
+#phpResult {
+	width: 940px;
+    height: 250px;
+	margin: 80px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    text-align: center;
+}
+
+#javaResult {
+	width: 940px;
+    height: 250px;
+	margin: 80px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    text-align: center;
+}
+
+#gradeLabel{
+    font-size: 50px;   
+}
+
+#grade{
+    font-size: 50px;   
+}
+
+#percentageLabel{
+    font-size: 50px;   
+}
+
+#percentage{
+    font-size: 50px;   
+}
+
+#feedback{
+    font-size: 30px;
+}
+

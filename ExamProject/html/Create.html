@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Account</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../javascript/exam.js"></script>
+    <link rel="stylesheet" href="../css/exam.css">
+</head>
+<body>
+    <div class="create">
+        <h1>Create Account</h1>
+
+        <form action="../registration.php" method="POST">
+            <label>First Name:</label>
+            <input type="text" name="first">
+            <h6 id="fNameError"></h6>
+            <br>
+
+            <label>Last Name:</label>
+            <input type="text" name="last">
+            <h6 id="lNameError"></h6>
+            <br>
+
+            <label>Email:</label>
+            <input type="text" name="email">
+            <h6 id="emailError"></h6>
+            <br>
+
+            <label>Password:</label>
+            <input type="password" name="pass">
+            <h6 id="passwordError"></h6>
+            <br>
+                        
+            <label>Student ID:</label>
+            <input type="text" name="user">
+            <h6 id="idError"></h6>
+            <br>
+    
+            <label>School Name:</label>
+            <select name="college" id="college">
+                <option value="vanier">Vanier</option>
+                <option value="dawson">Dawson</option>
+                <option value="john abott">John Abott</option>
+            </select>
+            <br>
+            <br>
+            
+            <input type="button" value="Create" onclick="create();">                                    
+        </form>
+
+        <hr>
+
+        <div id="criteria">
+            <h3>Creation Criteria</h3>                                
+        
+            <h4>For Name</h4>
+            <p>Must start with capital letters</p>
+        
+            <h4>For Password</h4>
+                                                            
+            <p>Minimum of 1 capital letter allowed</p>
+            <p>Minimum of 1 number</p>
+            <p>Must be between 8 and 24 characters</p>
+                                                                
+            <h4>For Id</h4>
+            <p>
+                Id has to be 8 digits and the sum has to be either 34, 38, 42 or 59.
+            </p>
+        </div>                
+    </div>
+</body>
+</html>

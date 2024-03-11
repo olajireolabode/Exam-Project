@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../javascript/exam.js"></script>
+    <link rel="stylesheet" href="../css/exam.css">
+</head>
+<body>
+    <div class="login">
+        <h1>Log in</h1>
+
+        <form action="../login.php" method="POST">
+            <label>Student ID:</label>
+            <input type="text" name="user" id="user">             
+            <br>
+            <br>
+
+            <label>Password:</label>
+            <input type="password" name="pass" id="pass">
+            <br>
+            <br>
+
+            <label>College:</label>
+            <select name="college" id="college">
+                <option value="vanier">Vanier</option>
+                <option value="dawson">Dawson</option>
+                <option value="john abott">John Abott</option>
+            </select>            
+            <br>
+            <br>
+            
+            <input type="button" value="Register" onclick="login();">
+        </form>
+        
+    </div>
+</body>
+</html>

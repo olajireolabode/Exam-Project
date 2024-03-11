@@ -1,0 +1,61 @@
+body {
+	color: #000000;
+	background-color: #c7ac77;
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+.login{
+	width: 940px;
+	margin: 200px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    text-align: center;
+}
+
+.welcome{
+	width: 940px;
+	margin: 250px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    text-align: center;
+}
+
+.create {
+	width: 940px;
+	margin: 50px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    text-align: center;
+}
+
+.choice {
+	width: 940px;
+	margin: 250px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#javaBtn{
+	font-size: 30px;
+	margin: 20px 10px;
+}
+
+#phpBtn{
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+
+
